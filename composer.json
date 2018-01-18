@@ -1,5 +1,5 @@
 {
-  "name": "Exygy/sitefarm-pantheon",
+  "name": "exygy/sitefarm-pantheon",
   "description": "Install SiteFarm with Composer on Pantheon.",
   "type": "project",
   "license": "proprietary",
