@@ -3,6 +3,7 @@
   "description": "Install SiteFarm with Composer on Pantheon.",
   "type": "project",
   "license": "proprietary",
+  "version": "1.0.0",
   "repositories": {
     "drupal": {
       "type": "composer",
