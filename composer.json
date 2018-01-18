@@ -1,8 +1,9 @@
 {
-  "name": "ucdavis/sitefarm-pantheon",
+  "name": "Exygy/sitefarm-pantheon",
   "description": "Install SiteFarm with Composer on Pantheon.",
   "type": "project",
   "license": "proprietary",
+  "version": "1.0.0",
   "repositories": {
     "drupal": {
       "type": "composer",
@@ -10,15 +11,7 @@
     },
     "ucdavis/sitefarm": {
       "type": "vcs",
-      "url": "git@bitbucket.org:ietwebdev/sitefarm.git"
-    },
-    "ucdavis/aggiefeed": {
-      "type": "vcs",
-      "url": "git@bitbucket.org:ietwebdev/aggiefeed-drupal-module.git"
-    },
-    "ucdavis/sitefarm_one": {
-      "type": "vcs",
-      "url": "git@bitbucket.org:ietwebdev/sitefarm-theme-one.git"
+      "url": "git@github.com:ucdavis/sitefarm_seed.git"
     }
   },
   "require": {
@@ -32,7 +25,6 @@
     "drush/drush": "~8",
     "rvtraveller/qs-composer-installer": "^1.1",
     "ucdavis/sitefarm": "dev-8.x-3.x",
-    "ucdavis/sitefarm_one": "dev-8.x-3.x",
     "webflo/drupal-core-strict": "^8"
   },
   "require-dev": {
